@@ -1,0 +1,186 @@
+@media all and (max-width: 1215px) {
+	.get-started-area {
+		height: 240px;
+	}
+
+	p {
+		font-size: 11px;
+	}
+	
+	.design-area {
+		height: 400px;
+	}
+}
+
+@media all and (max-width: 1160px) {
+	.container {
+		width: 90%;
+	}
+
+	.get-started-area {
+		height: 230px;
+	}
+	
+}
+
+@media all and (max-width: 1024px) {
+	h2 {
+		font-size: 16px;
+	}
+	
+	p {
+		font-size: 11px;
+	}
+	
+	.container {
+		width: 93%;
+	}
+	
+	.get-started p {
+		margin: 25px 0;
+	}
+	
+	.get-started-area {
+		height: 220px;
+	}
+}
+
+
+@media all and (max-width: 970px) {
+	
+	.get-started-area {
+		height: 200px;
+		padding: 50px 0 100px;
+	}
+	
+	p {
+		letter-spacing: 1px;
+	}
+}
+
+@media all and (max-width: 910px) {
+	
+	.container {
+		width: 95%;
+	}
+	
+	.mainmenu ul li {
+		margin: 0 20px;
+	}
+	
+	.get-started-area {
+		height: 160px;
+		padding: 30px 0 100px;
+	}
+	
+	.get-started p {
+		letter-spacing: 1px;
+		margin: 15px 0;
+	}
+	
+	p br {
+		display: none;
+	}
+	
+	.design-area {
+		height: 360px;
+		padding-top: 70px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	
+	.container {
+		width: 90%;
+	}
+	
+	.welcome-text {
+		margin: 150px 0;
+	}
+	
+	.mainmenu ul li {
+		margin: 0 15px;
+	}
+	
+	.get-started-area {
+		height: 500px;
+		padding: 30px 0 100px;
+	}
+	
+	.get-started {
+		width: 100%;
+		float: none;
+	}
+	
+	.get-started h2 br {
+		display: none;
+	}
+	
+	.get-started p {
+		letter-spacing: 2px;
+	}
+	
+	.hand-mobile {
+		width: 100%;
+		float: none;
+	}
+	
+	p {
+		letter-spacing: 2px;
+		margin: 15px 0;
+		font-size: 13px;
+	}
+	
+	p br {
+		display: none;
+	}
+	
+	.design-area {
+		padding-top: 90px;
+		overflow: hidden;
+		height: auto;
+	}
+	
+	.iphone-mobile {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	
+	.design {
+		width: 100%;
+		margin-top: 50px;
+		text-align: center;
+	}
+	
+	.design-navigation {
+		padding-bottom: 50px;
+	}
+	
+	.footer-area {
+		text-align: center;
+	}
+	
+	.footer-left {
+		float: none;
+		width: 100%;
+		display: block;
+	}
+	
+	.green-logo {
+		width: 100%;
+		display: block;
+	}
+
+	.green-logo img {
+		float: none;
+		margin-top: 30px;
+	}
+}
+
+@media all and (max-width: 710px) {
+	.mainmenu ul li {
+	  display: block;
+	  margin: 25px 15px;
+	}
+}

@@ -1,0 +1,440 @@
+/*
+Theme Name: Phototime
+Theme URI: http://www.example.com
+Author: Md. Omar Ali
+Author URI: http://www.example.com
+Description: Phototime is a website where you can find new and beautiful photo. Also you can upload your photo in Phototime
+Version: 1.0
+*/
+
+/*
+	1. Typography
+	2. Header Area
+	3. Get Started Area
+	4. Design Area
+	5. Subscribe Area
+	6. Download Area
+	7. Footer Area
+*/
+
+
+/* ======================================================================================= */
+/* ==================================== 1. Typography ==================================== */
+/* ======================================================================================= */
+
+@font-face {
+	font-family: "Gotham Bold";
+	src: url('fonts/gotham-rounded-bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: "Gotham Rounded";
+	src: url('fonts/gotham-rounded-book.woff') format('woff');
+}
+
+body {
+	font-family: "Gotham Bold";
+	font-size: 14px;
+}
+
+h2 {
+	font-size: 18px;
+	color: #16a085;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: normal;
+	line-height: 22px;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+p {
+	font-size: 12px;
+	color: #7F8082;
+	line-height: 28px;
+	letter-spacing: 2px;
+	font-family: "Gotham Rounded";
+	margin: 35px 0;
+	line-height: 2em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+/* ======================================================================================= */
+/* =================================== 2. Header Area ==================================== */
+/* ======================================================================================= */
+
+.container {
+	width: 80%;
+	margin: auto;
+	max-width: 980px;
+}
+
+.header-area {
+	background: url('images/header-bg.jpg') no-repeat 0 0 / 100% 100%;
+	text-align: center;
+	padding: 25px 0;
+	color: #fff;
+	
+/* 	
+	background-image: url('images/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% 100%; 
+*/
+
+}
+
+.mainmenu {}
+
+.mainmenu ul {
+	text-align: center;
+}
+
+.mainmenu ul li {
+	display: inline;
+	margin: 0 30px;
+}
+
+.mainmenu ul li .logo {
+	margin: 8px 40px 0;
+}
+
+.mainmenu ul li a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.welcome-text {
+	margin: 240px 0;
+}
+
+.welcome-text h2 {
+	font-size: 40px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+}
+
+.welcome-text h5 {
+	font-weight: normal;
+	margin: 0 0 30px;
+	letter-spacing: 2px;
+	font-size: 16px;
+	line-height: 2.5em
+}
+
+.button {
+	background: #16A086;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 14px 30px;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	transition: .5s;
+	border: 1px solid transparent;
+}
+
+.button:hover {
+	background: #F5F6F8;
+	color: #16A086;
+	border: 1px solid #00A185;
+}
+
+.social-profile {}
+
+.social-profile ul {
+}
+
+.social-profile ul li {
+	display: inline;
+	margin: 0 6px;
+}
+
+.social-profile ul li a {}
+
+.social-profile ul li a i {
+	font-size: 27px;
+	color: #fff;
+}
+
+
+
+
+/* ======================================================================================= */
+/* ================================ 2. Get Started Area ================================== */
+/* ======================================================================================= */
+
+
+.get-started-area {
+	overflow: hidden;
+	padding: 70px 0 100px;
+	background: #F5F6F8;
+	height: 255px;
+}
+
+.col-1-2  {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+
+.get-started {
+	width: 46%;
+	float: left;
+	overflow: hidden;
+}
+
+.get-started h2 {
+
+}
+
+.get-started p {
+	color: #7F8082;
+	letter-spacing: 1.5px;
+	font-family: "Gotham Rounded";
+	margin: 35px 0;
+}
+
+.get-started p span {
+	font-weight: bold;
+	color: #373737;
+}
+
+.hand-mobile {
+	width: 54%;
+	float: left;
+	overflow: hidden;
+}
+
+.hand-mobile img {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+
+
+/* ======================================================================================= */
+/* ================================ 	4. Design Area ================================== */
+/* ======================================================================================= */
+
+
+.design-area {
+	padding-top: 90px;
+	overflow: hidden;
+	height: 430px;
+}
+
+.iphone-mobile {
+	width: 54%;
+	float: left;
+}
+
+.iphone-mobile img {
+	max-width: 100%;
+	height: auto;
+}
+
+.design {
+	width: 46%;
+	overflow: hidden;
+}
+
+.design h2 {
+}
+
+.design-navigation {}
+
+.design-navigation p {
+	margin-bottom: 0;
+	color: #000000;
+}
+
+.design-navigation a {}
+
+.design-navigation a i {
+	color: #000000;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+
+
+/* ======================================================================================= */
+/* ================================ 5. Subscribe Area ================================== */
+/* ======================================================================================= */
+
+
+.subscribe-area {
+	background: url(images/subscribe-bg.jpg) no-repeat 0 0 / 100% 100%;
+	padding: 250px 0;
+	text-align: center;
+}
+
+.subscribe {}
+
+.subscribe h2 {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.subscribe input {
+	background: #fff;
+	border: none;
+	padding: 15px 10px;
+	border-radius: 3px 0 0 3px;
+	width: 20%;
+	font-family: "Gotham Rounded";
+	font-weight: bold;
+	color: #454545;
+}
+
+.subscribe .submit-btn {
+	background: #16A086;
+	border: none;
+	padding: 8px 15px 15px;
+	margin-left: -4px;
+}
+
+.subscribe .submit-btn i {
+	color: #fff;
+	font-size: 25px;
+}
+
+
+
+/* ======================================================================================= */
+/* ================================ 6. Download Area ================================== */
+/* ======================================================================================= */
+
+.download-area {
+	background: #F5F6F8;
+	padding: 70px 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+.download {
+	width: 89%;
+	margin: auto;
+}
+
+.download h2 {
+	color: #373737;
+}
+
+.download p {
+	color: #353638;
+	font-size: 14px;
+	line-height: 1.8em;
+	margin-top: 10px;
+}
+
+.download-button {
+	position: relative;
+}
+
+.download-btn {
+	background: #1bbc9b none repeat scroll 0 0;
+	border-radius: 3px 0 0 3px;
+	color: #fff;
+	display: inline-block;
+	letter-spacing: 2px;
+	margin: 8px 12px;
+	padding: 18px 0 18px 30px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 30%;
+}
+
+.download-button i {
+	background: #16a086 none repeat scroll 0 0;
+	border-radius: 0 3px 3px 0;
+	color: #fff;
+	font-size: 25px;
+	padding: 10px 20px 18px;
+	position: absolute;
+	right: 33%;
+	top: 9px;
+}
+
+
+
+/* ======================================================================================= */
+/* ================================ 	7. Footer Area ================================== */
+/* ======================================================================================= */
+
+
+.footer-area {
+	overflow: hidden;
+	padding: 30px 0;
+}
+
+.footer {}
+
+.footer-left {
+	float: left;
+	width: 50%;
+}
+
+.footer-tab {}
+
+.footer-tab ul {
+
+}
+
+.footer-tab ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.footer-tab ul li a {
+	color: #373737;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.footer-tab ul li a:hover {}
+
+.copyright {}
+
+.copyright p {
+	color: #373737;
+	margin: 20px 0 0;
+	letter-spacing: 2px;
+}
+
+.green-logo {
+	width: 50%;
+	overflow: hidden;
+}
+
+.green-logo img {
+	float: right;
+}
+
+
+
+
+
+
+
+
